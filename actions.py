@@ -34,7 +34,7 @@ class ActionHelloWorld(Action):
 
         metadata=extract_metadata_from_tracker(tracker)
         
-        print("MeataData: ",metadata)
+        print("MetaData: ",metadata)
         dispatcher.utter_message(text="Hello World!")
 
         return []
